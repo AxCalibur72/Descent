@@ -13,3 +13,8 @@ config_version=5
 config/name="Descent"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=320
+window/size/viewport_height=240
