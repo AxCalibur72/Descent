@@ -11,15 +11,16 @@ config_version=5
 [application]
 
 config/name="Descent"
+run/main_scene="res://scenes/game_manager/game_manager.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=640
-window/size/viewport_height=480
+window/size/viewport_width=320
+window/size/viewport_height=210
 window/size/window_width_override=1280
-window/size/window_height_override=960
+window/size/window_height_override=840
 window/stretch/mode="canvas_items"
 
 [input]
